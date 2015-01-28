@@ -52,10 +52,15 @@ void LedMatrixObject::clear(){
 		Word1[i] = 0;
 }
 
+void LedMatrixObject::clearScene(){
+	for(byte i = 0; i < 16; i++)
+		for(byte k = 0; k < 16; k++)
+			this->Scene[i][k] = 1;
+}
+
 void LedMatrixObject::sceneToWord(){
 	//clear word
 	clear();
-
 
 	int i, k, key = 0;
 	unsigned int value;
@@ -75,6 +80,7 @@ void LedMatrixObject::sceneToWord(){
 void LedMatrixObject::draw(){
 	sceneToWord();
 	display();
+	clearScene();
 }
 
 void LedMatrixObject::display(){

@@ -43,6 +43,8 @@ private:
 	void display();
 	void send(unsigned int dat);
 	void scan_Line(unsigned int m);
+	void clearScene();
+
 
 public:
 	LedMatrixObject(byte LEDARRAY_D, byte LEDARRAY_C, byte LEDARRAY_B, byte LEDARRAY_A, byte LEDARRAY_G, byte LEDARRAY_DI, byte LEDARRAY_CLK, byte LEDARRAY_LAT);
