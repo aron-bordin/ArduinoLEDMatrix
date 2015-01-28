@@ -54,8 +54,7 @@ void LedMatrixObject::clear(){
 
 void LedMatrixObject::sceneToWord(){
 	//clear word
-	for(int i = 0; i < 32; i++)
-		Word1[i] = 0;
+	clear();
 
 
 	int i, k, key = 0;
