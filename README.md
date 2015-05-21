@@ -1,5 +1,9 @@
 # Led Matrix
 
+#IMPORTANT
+### This library was moved to a new repository: https://github.com/aron-bordin/PNG-Arduino-Framework
+I'll update just the new repository. Check and star the .PNG Arduino Framework, there are more objects and Arduino components. This new repository has a better documentation.
+
 This is a helper class to work with [16x16 LED Matrix with Arduino](http://www.elabpeers.com/led-matrix-display.html).
 
 You can read the full tutorial here: https://bytedebugger.wordpress.com/2015/01/28/tutorial-how-to-use-dot-led-matrix-display-with-arduino/
